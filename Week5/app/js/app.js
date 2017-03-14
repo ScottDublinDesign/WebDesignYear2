@@ -1,5 +1,5 @@
-var app = angular.module('app',['ui.router'])
-.config(function($stateProvider) {
+var app = angular.module('app',['ionic','ui.router'])
+.config(function($stateProvider, $urlRouterProvider) {
   var helloState = {
     name: 'hello',
     url: '/hello',
@@ -14,4 +14,6 @@ var app = angular.module('app',['ui.router'])
 
   $stateProvider.state(helloState);
   $stateProvider.state(aboutState);
+
+  $urlRouterProvider.otherwise('/hello');
 });

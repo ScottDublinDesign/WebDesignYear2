@@ -1,0 +1,29 @@
+[
+    {
+        "id": "1",
+        "name": "Trinity College",
+        "text": "Trinity is a college in dublin",
+        "location": {
+            "lat": 53.3437967,
+            "lng": -6.2567603
+        }
+    },
+    {
+        "id": "2",
+        "name": "Dublin Institute of Design",
+        "text": "DID is awesome",
+        "location": {
+            "lat": 53.3416542,
+            "lng": -6.2570467
+        }
+    },
+    {
+        "id": "3",
+        "name": "Dublin Institure of Technology",
+        "text": "DIT has lots of campuses",
+        "location": {
+            "lat": 53.338561,
+            "lng": -6.2687624
+        }
+    }
+]
